@@ -1,11 +1,98 @@
-Kenil: Good morning team. Today we need to finalize the launch checklist for the AI Meeting Notes Assistant demo.
-Priya: The Streamlit interface is almost complete. I will finish the upload screen and JSON preview by Thursday.
-Rahul: I reviewed the customer feedback. I will prepare the sales report, include regional numbers, and submit it to Mr. Kenil by Friday, May 3.
-Kenil: Great. Decision confirmed: the demo will use both OpenAI and Ollama as selectable providers.
-Aisha: QA found one issue with PDF export formatting. I need to retest the PDF download before end of week.
-Kenil: Please make the action item descriptions detailed enough for Jira tickets, not just short labels.
-Rahul: Agreed. I will also share the final sample transcript with the portfolio README by Friday.
-Priya: One open question is whether we should include Google Calendar integration in version two.
-Kenil: Final decision for this phase: no calendar integration. We will keep version one focused on TXT upload, structured JSON, Markdown, and PDF export.
-Aisha: I will write three test cases for JSON parsing, Markdown export, and missing deadline evaluation by Monday.
+Meeting: Operations + Hiring + Finance Mixed Discussion
+Date: 2026-04-30
 
+Vikram: Alright, let’s start. This is a bit of a mixed agenda—operations, hiring, and finances.
+
+Riya: Can we start with operations? There are delays in project deliveries.
+
+Vikram: Yes, go ahead.
+
+Riya: Two client projects are behind schedule by almost a week.
+
+Arjun: That’s mainly because the dev team is overloaded.
+
+Vikram: Why overloaded?
+
+Arjun: We didn’t hire enough people last quarter.
+
+Riya: Also priorities keep changing.
+
+Vikram: That’s a management issue then.
+
+Riya: Yes.
+
+Vikram: Okay, we need to stabilize priorities.
+
+Arjun: And hire at least two developers.
+
+Vikram: Budget?
+
+Sneha: We can afford one immediately, second depends on next month revenue.
+
+Vikram: Then hire one now.
+
+Riya: Timeline?
+
+Vikram: Start hiring process today, aim to close within two weeks.
+
+Arjun: I’ll coordinate with HR.
+
+Vikram: Good.
+
+Sneha: On finance side, cash flow is tight.
+
+Vikram: How tight?
+
+Sneha: We have around 2 months runway.
+
+Vikram: That’s risky.
+
+Riya: Do we have pending payments?
+
+Sneha: Yes, two clients haven’t paid yet.
+
+Vikram: Follow up aggressively.
+
+Riya: Who will do that?
+
+Sneha: I can send reminders today.
+
+Vikram: Do it.
+
+Arjun: Also, should we pause new expenses?
+
+Vikram: Yes, non-essential spending should be paused immediately.
+
+Riya: What about marketing budget?
+
+Vikram: Reduce but don’t stop completely.
+
+Sneha: Maybe cut by 30%.
+
+Vikram: Agreed.
+
+Arjun: Coming back to operations, we need better tracking.
+
+Riya: Weekly tracking?
+
+Vikram: Yes.
+
+Arjun: I can set up a dashboard.
+
+Vikram: When?
+
+Arjun: By next Friday.
+
+Vikram: Okay.
+
+Riya: What about current delayed projects?
+
+Vikram: Prioritize them over new work.
+
+Arjun: That might delay new clients.
+
+Vikram: That’s fine. Existing clients first.
+
+Sneha: Makes sense financially too.
+
+Vikram: Okay, let’s close.
