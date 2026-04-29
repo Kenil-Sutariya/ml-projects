@@ -1,0 +1,11 @@
+Kenil: Good morning team. Today we need to finalize the launch checklist for the AI Meeting Notes Assistant demo.
+Priya: The Streamlit interface is almost complete. I will finish the upload screen and JSON preview by Thursday.
+Rahul: I reviewed the customer feedback. I will prepare the sales report, include regional numbers, and submit it to Mr. Kenil by Friday, May 3.
+Kenil: Great. Decision confirmed: the demo will use both OpenAI and Ollama as selectable providers.
+Aisha: QA found one issue with PDF export formatting. I need to retest the PDF download before end of week.
+Kenil: Please make the action item descriptions detailed enough for Jira tickets, not just short labels.
+Rahul: Agreed. I will also share the final sample transcript with the portfolio README by Friday.
+Priya: One open question is whether we should include Google Calendar integration in version two.
+Kenil: Final decision for this phase: no calendar integration. We will keep version one focused on TXT upload, structured JSON, Markdown, and PDF export.
+Aisha: I will write three test cases for JSON parsing, Markdown export, and missing deadline evaluation by Monday.
+
