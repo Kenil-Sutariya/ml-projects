@@ -1,0 +1,51 @@
+ACME Corporation — Employee AI Usage Policy
+Version: 1.0 | Effective: 2024-01-01
+
+1. PURPOSE
+This policy governs the responsible use of AI tools, including large language models
+(LLMs) and AI-powered research assistants, by ACME Corporation employees.
+
+2. APPROVED AI TOOLS
+The following AI tools are approved for internal use:
+- Real-Time Research Copilot (internal tool, runs fully locally)
+- Approved LLMs: Ollama-hosted models (llama3.2, gemma, mistral)
+- No cloud-based LLMs may process confidential company data without written approval.
+
+3. DATA CLASSIFICATION
+Employees must not input the following into any AI tool unless explicitly approved:
+- Customer personally identifiable information (PII)
+- Financial projections or unreleased earnings data
+- Intellectual property under NDA
+- Passwords, API keys, or secrets
+
+4. LOCAL-FIRST REQUIREMENT
+All AI inference for confidential tasks must use locally hosted models via Ollama.
+Cloud AI services (ChatGPT, Claude API, Gemini) are restricted for confidential tasks.
+
+5. PRIVATE KNOWLEDGE BASE
+The Research Copilot's private knowledge base may contain:
+- Internal policy documents (like this file)
+- Product documentation
+- Approved research papers
+- Meeting summaries (anonymized)
+
+6. ACCEPTABLE USE
+Approved uses of the Research Copilot:
+- Summarizing internal documents
+- Answering questions about company policy
+- Technical research and literature review
+- Drafting internal reports (requires human review before distribution)
+
+7. PROHIBITED USE
+The Research Copilot must not be used to:
+- Make final decisions on hiring, firing, or compensation
+- Generate customer-facing content without human review
+- Replace legal or medical advice
+
+8. AUDIT AND LOGGING
+All queries submitted to the Research Copilot are logged locally for audit purposes.
+Logs are retained for 90 days and reviewed monthly by the IT Security team.
+
+9. CONTACT
+Questions about this policy: ai-policy@acme-corp.example.com
+IT Security team: security@acme-corp.example.com
