@@ -1,0 +1,11 @@
+routing:
+  tier_1: llama3.2
+  tier_2: groq-llama3-8b
+  tier_3: groq-llama3-70b
+fallback:
+  tier_1: groq-llama3-8b
+  tier_2: groq-llama3-70b
+  tier_3: groq-llama3-70b
+quality:
+  min_agreement_score: 0.75
+  judge_model: groq-llama3-70b

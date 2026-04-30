@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+data/autopilot.db
+data/baseline_results.json
+data/load_test_report.json
+data/classifier_report.json
+src/classifier/model.pkl
+*.log
+.DS_Store

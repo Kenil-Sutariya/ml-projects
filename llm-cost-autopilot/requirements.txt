@@ -1,0 +1,35 @@
+# LLM Providers
+openai>=1.30.0
+anthropic>=0.28.0
+httpx>=0.27.0          # Ollama REST calls
+
+# API
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+
+# Classifier
+scikit-learn>=1.5.0
+numpy>=1.26.0
+joblib>=1.4.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Dashboard
+streamlit>=1.35.0
+plotly>=5.22.0
+
+# Async / background work
+celery>=5.4.0
+redis>=5.0.0            # Celery broker (optional; swap for asyncio.Queue in dev)
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+tiktoken>=0.7.0         # Token counting for OpenAI models
+tenacity>=8.3.0         # Retry logic
+
+# Testing
+pytest>=8.2.0
+pytest-asyncio>=0.23.0
