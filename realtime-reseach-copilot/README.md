@@ -75,27 +75,6 @@ This project is designed as a practical AI Engineer portfolio project because it
 
 ---
 
-## 🧭 Demo Workflow
-
-```mermaid
-flowchart TD
-    A[User enters research question] --> B[Streamlit frontend]
-    B --> C[FastAPI /research endpoint]
-    C --> D[ResearchAgent]
-    D --> E[Wikipedia Tool]
-    D --> F[Tavily Tool - optional]
-    D --> G[Private KB Tool]
-    E --> H[Collected Sources]
-    F --> H
-    G --> H
-    H --> I[Ollama Local LLM]
-    I --> J[Structured Answer]
-    J --> K[ConfidenceService]
-    K --> L[Response: answer, key points, sources, confidence score]
-```
-
----
-
 ## 🏗️ Architecture
 
 The application follows a clean **frontend → API → agent → tools/services → response** architecture.
@@ -446,23 +425,6 @@ The `ResearchAgent` can then call the new tool without changing the overall app 
 
 ---
 
-## 🛣️ Roadmap
-
-| Milestone | Feature | Status |
-|---:|---|---|
-| 1 | FastAPI scaffold, schemas, health endpoint | ✅ Done |
-| 2 | WikipediaTool using Wikipedia REST API | ✅ Done |
-| 3 | PrivateKBTool keyword search over local `.txt` files | 🔲 Next |
-| 4 | OllamaService for local LLM inference | ✅ Done |
-| 5 | ConfidenceService for source-based scoring | ✅ Done |
-| 6 | Streamlit frontend with answer and source cards | ✅ Done |
-| 7 | FAISS vector search for private knowledge base | 🔲 Planned |
-| 8 | TavilyTool for optional live web search | ✅ Done |
-| 9 | Test suite polish and coverage improvements | 🔲 Planned |
-| 10 | Docker Compose for one-command startup | 🔲 Planned |
-
----
-
 ## 🧯 Troubleshooting
 
 | Problem | Solution |
@@ -500,7 +462,7 @@ AI Engineer / ML Engineer Portfolio Project
   <a href="https://github.com/Kenil-Sutariya">
     <img src="https://img.shields.io/badge/GitHub-Kenil--Sutariya-black" alt="GitHub" />
   </a>
-  <a href="https://www.linkedin.com/in/Kenil--Sutariya/">
+  <a href="https://www.linkedin.com/in/Kenil-Sutariya/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn" />
   </a>
 </p>
