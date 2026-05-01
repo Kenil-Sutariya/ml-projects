@@ -81,7 +81,7 @@ Everything runs on your machine. No data leaves your environment by default.
 ### 1. Install
 
 ```bash
-git clone https://github.com/your-username/universal-ml-monitoring-platform
+git clone https://github.com/Kenil-Sutariya/ml-projects
 cd universal-ml-monitoring-platform
 
 python3.12 -m venv venv
