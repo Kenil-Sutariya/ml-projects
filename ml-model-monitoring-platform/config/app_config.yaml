@@ -1,0 +1,25 @@
+app:
+  name: "Universal ML Model Monitoring Platform"
+  page_icon: "📊"
+  layout: "wide"
+
+monitoring:
+  default_task_type: "classification"
+  supported_task_types:
+    - classification
+  drift_numeric_threshold: 0.5
+  drift_categorical_threshold: 0.25
+  warning_error_rate: 0.25
+  critical_error_rate: 0.35
+  warning_f1_threshold: 0.70
+  critical_f1_threshold: 0.60
+
+llm:
+  default_provider: "local_ollama"
+  local_ollama_url: "http://localhost:11434"
+  default_ollama_model_priority:
+    - "llama3.2:latest"
+    - "qwen3.5"
+    - "qwen:latest"
+    - "gemma2:2b"
+    - "phi3:latest"
