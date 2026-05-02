@@ -97,7 +97,7 @@ Use this when you have a trained scikit-learn model and just want to throw raw C
 ### Steps
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/Kenil-Sutariya/ml-projects
 cd universal-ml-monitoring-platform
 
 python3.12 -m venv venv
